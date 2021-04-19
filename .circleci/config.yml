@@ -61,6 +61,11 @@ workflows:
   version: 2
   build:
     jobs:
+      - build:
+          filters:
+                branches:
+                  only:
+                    - cakephp
       - deploy:
           filters:
             branches:
