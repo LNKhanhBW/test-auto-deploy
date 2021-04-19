@@ -67,7 +67,5 @@ workflows:
                   only:
                     - cakephp
       - deploy:
-          filters:
-            branches:
-              only:
-                - cakephp
+          requires:
+            - build
