@@ -41,7 +41,7 @@ jobs:
   deploy:
     working_directory: ~/app
     docker:
-      - image: circleci/ruby:lastest
+      - image: circleci/ruby:latest
     steps:
       - checkout
 
