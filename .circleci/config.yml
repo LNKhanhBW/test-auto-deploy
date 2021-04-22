@@ -52,6 +52,7 @@ jobs:
             sudo apt-get -y -qq update
             sudo apt-get install python3-pip python3 build-essential
             pip3 --version
+            sudo pip3 install awsebcli --upgrade
 
       - run:
           name: Deploying
