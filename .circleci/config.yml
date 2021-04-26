@@ -58,7 +58,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy $CIRCLE_BRANCH-my-application
+          command: eb deploy Weblalala-env
           
 workflows:
   version: 2
