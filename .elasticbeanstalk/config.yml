@@ -1,9 +1,9 @@
 branch-defaults:
   main:
-    environment: Weblalala-env
+    environment: Weblalala-env-1
 global:
   application_name: Web-lalala
   default_ec2_keyname: webserver
-  default_platform: PHP 8.0 running on 64bit Amazon Linux 2/3.2.0
+  default_platform: PHP 7.3 running on 64bit Amazon Linux 2/3.2.0
   default_region: ap-southeast-1
   sc: git
