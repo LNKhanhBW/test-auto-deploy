@@ -1,8 +1,8 @@
 branch-defaults:
   main:
-    environment: $CIRCLE_BRANCH-my-application
+    environment: Weblalala-env
 global:
-  application_name: Weblalala-env
+  application_name: Web-lalala
   default_ec2_keyname: webserver
   default_platform: PHP 8.0 running on 64bit Amazon Linux 2/3.2.0
   default_region: ap-southeast-1
