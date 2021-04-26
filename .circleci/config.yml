@@ -58,7 +58,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy Weblalala-env
+          command: eb deploy Weblalala-env-1
           
 workflows:
   version: 2
